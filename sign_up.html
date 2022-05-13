@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <main>
+        <h3>Sign Up</h3>
+        <form action="" method="post">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" value="" placeholder="Your First Name" autofocus>
+            <br>
+            <br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" value="" placeholder="Your Last Name">
+            <br>
+            <br>
+            <label for="lastName">Phone Number:</label>
+            <input type="number" id="phoneNumber" name="phoneNumber" value="">
+            <br>
+            <br>
+            <label for="lastName">Date of Birth:</label>
+            <input type="date" id="birthdate" name="birthdate" value="">
+            <br>
+            <br>
+            <label for="email">E-mail Address:</label>
+            <input type="email" id="email" name="email" value="" placeholder="name@example.com">
+            <br>
+            <br>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="Nigeria">Nigeria</option>
+                <option value="France">France</option>
+                <option value="Russia">Russia</option>
+                <option value="South-Africa">South-Africa</option>
+                <option value="USA">USA</option>
+            </select>
+            <br>
+            <br>
+            <p>Gender</p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <br>
+            <br>
+            <p>How did you hear about us?</p>
+            <input list="heard-of-us-via" name="heard-of-us-via">
+            <datalist id="heard-of-us-via" >
+                <option value="Newspaper Advert">
+                <option value="A Friend">
+                <option value="Social Media">
+                <option value="Our Publicity">
+            </datalist>
+            <br>
+            <br>
+            <p>Which of our teams would you like to join?</p>
+            <label for="media">Media</label>
+            <input type="checkbox" id="media" name="team1" value="media">
+            <label for="editorial">Editorial</label>
+            <input type="checkbox" id="editorial" name="team2" value="editorial">
+            <label for="organizing">Organizing</label>
+            <input type="checkbox" id="organizing" name="team3" value="organizing">
+            <label for="publicity">Publicity</label>
+            <input type="checkbox" id="publicity" name="team4" value="publicity">
+            <br>
+            <br>
+            <h3>Have something to tell us?</h3>
+            <p>Send us a message</p>
+            <textarea name="message" id="message" cols="100" rows="10"></textarea>
+            <br>
+            <br>
+            <input type="checkbox" id="agree" name="terms-and-conditions" value="agree" required>
+            <label for="agree">Agree to our <a href="terms.txt">terms and conditions</a></label>
+            <br>
+            <br>
+            <br>
+            <input type="reset">
+            <button type="button">Submit</button>
+            <br>
+            <br>
+            <button type="button"><a href="index.html">BACK TO HOME</a></button>
+            <button type="button"><a href="about.html">GO TO PREVIOUS PAGE</a></button>
+    </main>
+    
+</body>
+</html>
